@@ -45,19 +45,19 @@
                                                 <label>MARK</label>
                                             </div>
                                             <div class="col-2">
-                                                <input type="radio" name="choice" id="plus" value="+" onclick="radiomark('+');" />
+                                                <input type="radio" name="mark" id="plus" value="+" onclick="radiomark('+');" />
                                                 <label>+</label>
                                             </div>
                                             <div class="col-2">
-                                                <input type="radio" name="choice" id="minus" value="-" onclick="radiomark('-');" />
+                                                <input type="radio" name="mark" id="minus" value="-" onclick="radiomark('-');" />
                                                 <label>-</label>
                                             </div>
                                             <div class="col-2">
-                                                <input type="radio" name="choice" id="multiplied" value="*" onclick="radiomark('x');" />
+                                                <input type="radio" name="mark" id="multiplied" value="*" onclick="radiomark('x');" />
                                                 <label>x</label>
                                             </div>
                                             <div class="col-2">
-                                                <input type="radio" name="choice" id="divide" value="/" onclick="radiomark('÷');" />
+                                                <input type="radio" name="mark" id="divide" value="/" onclick="radiomark('÷');" />
                                                 <label>÷</label>
                                             </div>
                                         </div>
@@ -148,6 +148,5 @@
     function radiomark(value) {
         showmark.innerHTML = value;
     }
-
     random();
 </script>
